@@ -14,6 +14,24 @@
   margin-top: 0.4em;
 }
 
+.lang__switcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lang__switcher_locales {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.lang__switcher_locale__active {
+  color: var(--clr-primary);
+  border-bottom: 1px solid var(--clr-primary);
+}
+
 @media (max-width: 600px) {
   .nav__list {
     display: none;

@@ -1,16 +1,19 @@
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
-import { about } from '../../portfolio'
-import './About.css'
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import TwitterIcon from '@material-ui/icons/Twitter';
+
+import useContent from '../../hooks/useContent';
+import './About.css';
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { about, LangString } = useContent();
+  const { name, role, description, resume, social } = about;
 
   return (
     <div className='about center'>
       {name && (
         <h1>
-          Hi, I am <span className='about__name'>{name}.</span>
+          {LangString('iam')} <span className='about__name'>{name}.</span>
         </h1>
       )}
 
@@ -21,7 +24,7 @@ const About = () => {
         {resume && (
           <a href={resume}>
             <span type='button' className='btn btn--outline'>
-              Resume
+              {LangString('resume')}
             </span>
           </a>
         )}
@@ -51,7 +54,7 @@ const About = () => {
         )}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default About
+export default About;

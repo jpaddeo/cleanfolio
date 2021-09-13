@@ -1,17 +1,30 @@
-import { useContext, useState } from 'react'
-import Brightness2Icon from '@material-ui/icons/Brightness2'
-import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded'
-import MenuIcon from '@material-ui/icons/Menu'
-import CloseIcon from '@material-ui/icons/Close'
-import { ThemeContext } from '../../contexts/theme'
-import { projects, skills, contact } from '../../portfolio'
-import './Navbar.css'
+import { useContext, useState, useRef } from 'react';
+
+import Brightness2Icon from '@material-ui/icons/Brightness2';
+import WbSunnyRoundedIcon from '@material-ui/icons/WbSunnyRounded';
+import MenuIcon from '@material-ui/icons/Menu';
+import CloseIcon from '@material-ui/icons/Close';
+import LanguageIcon from '@material-ui/icons/Language';
+
+import { ThemeContext } from '../../contexts/theme';
+import { LanguageContext, locales } from '../../contexts/language';
+
+import useContent from '../../hooks/useContent';
+
+import './Navbar.css';
 
 const Navbar = () => {
-  const [{ themeName, toggleTheme }] = useContext(ThemeContext)
-  const [showNavList, setShowNavList] = useState(false)
+  const [{ themeName, toggleTheme }] = useContext(ThemeContext);
+  const [locale, changeLanguage] = useContext(LanguageContext);
+  const [showNavList, setShowNavList] = useState(false);
+  const localeRef = useRef(null);
+  const { projects, skills, contact, LangString } = useContent();
 
-  const toggleNavList = () => setShowNavList(!showNavList)
+  const toggleNavList = () => setShowNavList(!showNavList);
+  const handleClickChangeLanguage = () => {
+    const newLocale = locales.filter((loc) => loc !== locale)[0];
+    changeLanguage(newLocale);
+  };
 
   return (
     <nav className='center nav'>
@@ -26,7 +39,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className='link link--nav'
             >
-              Projects
+              {LangString('projects')}
             </a>
           </li>
         ) : null}
@@ -38,7 +51,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className='link link--nav'
             >
-              Skills
+              {LangString('skills')}
             </a>
           </li>
         ) : null}
@@ -50,7 +63,7 @@ const Navbar = () => {
               onClick={toggleNavList}
               className='link link--nav'
             >
-              Contact
+              {LangString('contact')}
             </a>
           </li>
         ) : null}
@@ -65,6 +78,28 @@ const Navbar = () => {
         {themeName === 'dark' ? <WbSunnyRoundedIcon /> : <Brightness2Icon />}
       </button>
 
+      <div className='lang__switcher'>
+        <button
+          type='button'
+          onClick={handleClickChangeLanguage}
+          className='btn btn--icon nav__theme'
+          aria-label='change language'
+        >
+          <LanguageIcon />
+        </button>
+        <div className='lang__switcher_locales' ref={localeRef}>
+          {locales.map((loc) => (
+            <span
+              key={loc}
+              data-value={loc}
+              className={loc === locale ? 'lang__switcher_locale__active' : ''}
+            >
+              {loc.toLocaleUpperCase()}
+            </span>
+          ))}
+        </div>
+      </div>
+
       <button
         type='button'
         onClick={toggleNavList}
@@ -74,7 +109,7 @@ const Navbar = () => {
         {showNavList ? <CloseIcon /> : <MenuIcon />}
       </button>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

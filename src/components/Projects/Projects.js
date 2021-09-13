@@ -1,14 +1,18 @@
-import uniqid from 'uniqid'
-import { projects } from '../../portfolio'
-import ProjectContainer from '../ProjectContainer/ProjectContainer'
-import './Projects.css'
+import uniqid from 'uniqid';
+
+import useContent from '../../hooks/useContent';
+
+import ProjectContainer from '../ProjectContainer/ProjectContainer';
+
+import './Projects.css';
 
 const Projects = () => {
-  if (!projects.length) return null
+  const { projects, LangString } = useContent();
+  if (!projects.length) return null;
 
   return (
     <section id='projects' className='section projects'>
-      <h2 className='section__title'>Projects</h2>
+      <h2 className='section__title'>{LangString('projects')}</h2>
 
       <div className='projects__grid'>
         {projects.map((project) => (
@@ -16,7 +20,7 @@ const Projects = () => {
         ))}
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
