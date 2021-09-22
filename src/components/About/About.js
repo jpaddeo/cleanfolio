@@ -16,19 +16,9 @@ const About = () => {
           {LangString('iam')} <span className='about__name'>{name}.</span>
         </h1>
       )}
-
       {role && <h2 className='about__role'>A {role}.</h2>}
       <p className='about__desc'>{description && description}</p>
-
       <div className='about__contact center'>
-        {resume && (
-          <a href={resume}>
-            <span type='button' className='btn btn--outline'>
-              {LangString('resume')}
-            </span>
-          </a>
-        )}
-
         {social && (
           <>
             {social.github && (
@@ -48,6 +38,14 @@ const About = () => {
                 className='link link--icon'
               >
                 <LinkedInIcon />
+              </a>
+            )}
+
+            {resume && (
+              <a href={resume}>
+                <span type='button' className='btn btn--outline'>
+                  {LangString('resume')}
+                </span>
               </a>
             )}
           </>

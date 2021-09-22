@@ -27,11 +27,18 @@ export const Portfolio = {
     },
     projects: [
       {
+        name: 'Cleanfolio (fork)',
+        description: 'Portfolio personal basado en Cleanfolio de Raj Shekhar',
+        stack: ['React', 'JavaScript'],
+        sourceCode: 'https://github.com/cleanfolio.git',
+        livePreview: 'https://github.com/jpaddeo.github.io/cleanfolio',
+      },
+      {
         name: 'Clon de Airbnb',
         description: 'Clon del sitio de airbnb hecho con Nextjs + Tailwind CSS',
         stack: ['React', 'NextJS', 'Tailwind CSS'],
-        sourceCode: 'https://github.com/nextjs-airbnb',
-        livePreview: 'https://github.com/nextjs-airbnb',
+        sourceCode: 'https://github.com/nextjs-airbnb.git',
+        livePreview: 'https://nextjs-airbnb-clone-six.vercel.app',
       },
     ],
     skills: [
