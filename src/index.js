@@ -1,7 +1,9 @@
 import { render } from 'react-dom';
-import App from './App';
 import { ThemeProvider } from './contexts/theme';
 import { LanguageProvider } from './contexts/language';
+
+import App from './App';
+
 import './index.css';
 
 render(

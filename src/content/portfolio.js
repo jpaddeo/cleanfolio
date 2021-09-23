@@ -1,3 +1,28 @@
+const header = {
+  homepage: 'https://jpaddeo.github.io/porftolio',
+  title: 'JPA.',
+};
+const skills = [
+  'HTML',
+  'CSS',
+  'JavaScript',
+  'React',
+  'NextJS',
+  'React Native',
+  'Material UI',
+  'Tailwind CSS',
+  'Git',
+  'Github',
+  'Github Actions',
+  'Gitlab',
+  'Gitlab CI/CD',
+  'Jest',
+  'Ionic',
+  'Angular',
+];
+const contact = {
+  email: 'jpaddeo@gmail.com',
+};
 export const Portfolio = {
   es: {
     strings: {
@@ -9,10 +34,7 @@ export const Portfolio = {
       resume: 'CV',
       emailme: 'Contactame',
     },
-    header: {
-      homepage: 'https://jpaddeo.github.io/porftolio',
-      title: 'JPA.',
-    },
+    header,
     about: {
       name: 'Juan Pablo Addeo',
       role: 'Desarrollador Fullstack',
@@ -27,13 +49,6 @@ export const Portfolio = {
     },
     projects: [
       {
-        name: 'Cleanfolio (fork)',
-        description: 'Portfolio personal basado en Cleanfolio de Raj Shekhar',
-        stack: ['React', 'JavaScript'],
-        sourceCode: 'https://github.com/cleanfolio.git',
-        livePreview: 'https://github.com/jpaddeo.github.io/cleanfolio',
-      },
-      {
         name: 'Clon de Airbnb',
         description: 'Clon del sitio de airbnb hecho con Nextjs + Tailwind CSS',
         stack: ['React', 'NextJS', 'Tailwind CSS'],
@@ -41,23 +56,8 @@ export const Portfolio = {
         livePreview: 'https://nextjs-airbnb-clone-six.vercel.app',
       },
     ],
-    skills: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'React',
-      'NextJS',
-      'React Native',
-      'Redux',
-      'Material UI',
-      'Tailwind CSS',
-      'Git',
-      'CI/CD',
-      'Jest',
-    ],
-    contact: {
-      email: 'jpaddeo@mail.com',
-    },
+    skills,
+    contact,
   },
   en: {
     strings: {
@@ -69,10 +69,7 @@ export const Portfolio = {
       resume: 'Resume',
       emailme: 'Email me',
     },
-    header: {
-      homepage: 'https://jpaddeo.github.io/porftolio',
-      title: 'JPA.',
-    },
+    header,
     about: {
       name: 'Juan Pablo Addeo',
       role: 'Fullstack Developer',
@@ -94,22 +91,7 @@ export const Portfolio = {
         livePreview: 'https://github.com/nextjs-airbnb',
       },
     ],
-    skills: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'React',
-      'NextJS',
-      'React Native',
-      'Redux',
-      'Material UI',
-      'Tailwind CSS',
-      'Git',
-      'CI/CD',
-      'Jest',
-    ],
-    contact: {
-      email: 'jpaddeo@mail.com',
-    },
+    skills,
+    contact,
   },
 };
