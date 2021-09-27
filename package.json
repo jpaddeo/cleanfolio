@@ -2,7 +2,7 @@
   "name": "jpacleanfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://jpaddeo.github.io/cleanfolio",
+  "homepage": "https://jpaddeo.github.io/portfolio",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
