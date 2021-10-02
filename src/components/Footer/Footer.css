@@ -1,15 +1,26 @@
 .footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   padding: 3em 0;
   margin-top: 4em;
   text-align: center;
 }
-
 .footer__link {
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--clr-fg);
 }
-
+.footer_separator {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.footer__secondary__link {
+  font-size: 0.7rem;
+  color: var(--clr-fg);
+  opacity: 0.9;
+}
 @media (max-width: 600px) {
   .footer {
     padding: 2em;
