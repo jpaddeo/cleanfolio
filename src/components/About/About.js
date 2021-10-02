@@ -7,16 +7,19 @@ import './About.css';
 
 const About = () => {
   const { about, LangString } = useContent();
-  const { name, role, description, resume, social } = about;
+  const { profileUrl, name, role, description, resume, social } = about;
 
   return (
     <div className='about center'>
       {name && (
-        <h1>
-          {LangString('iam')} <span className='about__name'>{name}.</span>
-        </h1>
+        <div className='about__legend'>
+          <img src={profileUrl} alt={name} />
+          <h1>
+            {LangString('iam')} <span className='about__name'>{name}.</span>
+          </h1>
+        </div>
       )}
-      {role && <h2 className='about__role'>A {role}.</h2>}
+      {role && <h2 className='about__role'>{role}.</h2>}
       <p className='about__desc'>{description && description}</p>
       <div className='about__contact center'>
         {social && (
@@ -30,7 +33,6 @@ const About = () => {
                 <GitHubIcon />
               </a>
             )}
-
             {social.linkedin && (
               <a
                 href={social.linkedin}
@@ -38,6 +40,16 @@ const About = () => {
                 className='link link--icon'
               >
                 <LinkedInIcon />
+              </a>
+            )}
+
+            {social.twitter && (
+              <a
+                href={social.twitter}
+                aria-label='twitter'
+                className='link link--icon'
+              >
+                <TwitterIcon />
               </a>
             )}
 
