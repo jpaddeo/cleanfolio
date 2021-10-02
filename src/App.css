@@ -101,6 +101,7 @@ main {
 .btn--outline:hover,
 .btn--outline:focus {
   color: var(--clr-bg);
+  opacity: 0.8;
 }
 
 .btn--outline:before {
