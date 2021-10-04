@@ -2,12 +2,14 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import TwitterIcon from '@material-ui/icons/Twitter';
 
+import TextLoop from 'react-text-loop';
+
 import useContent from '../../hooks/useContent';
 import './About.css';
 
 const About = () => {
   const { about, LangString } = useContent();
-  const { profileUrl, name, role, description, resume, social } = about;
+  const { profileUrl, name, roles, description, resume, social } = about;
 
   return (
     <div className='about center'>
@@ -19,8 +21,17 @@ const About = () => {
           </h1>
         </div>
       )}
-      {role && <h2 className='about__role'>{role}.</h2>}
-      <p className='about__desc'>{description && description}</p>
+      {roles && (
+        <TextLoop
+          className='about__roles'
+          springConfig={{ stiffness: 70, damping: 31 }}
+          mask
+        >
+          {roles.map((role) => (
+            <span className='about__role'><span>[</span>{role}<span>]</span></span>
+          ))}
+        </TextLoop>
+      )}
       <div className='about__contact center'>
         {social && (
           <>

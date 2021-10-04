@@ -11,19 +11,16 @@ const social = {
   twitter: 'https://twitter.com/jpaddeo',
 };
 const skills = [
-  'HTML',
-  'CSS',
   'JavaScript',
   'React',
   'NextJS',
   'React Native',
   'Material UI',
   'Tailwind CSS',
+  'Bootstrap',
   'Git',
-  'Github',
-  'Github Actions',
-  'Gitlab',
-  'Gitlab CI/CD',
+  'Github + Github Actions',
+  'Gitlab + Gitlab CI/CD',
   'Jest',
   'Ionic',
   'Angular',
@@ -46,7 +43,12 @@ export const Portfolio = {
     about: {
       ...about,
       name: 'Juan Pablo Addeo',
-      role: 'Desarrollador Fullstack',
+      roles: [
+        'Ingeniero en Sistemas de Información',
+        'Desarrollador Fullstack',
+        'Arquitecto de Software',
+        'DevOps',
+      ],
       description:
         'Ingeniero en Sistemas de Información. Arquitecto de Software. Desarrollador Fullstack. Análisis Técnico. Administración de Recursos. Coaching. Intereses: Desarrollo de Software, Innovación, Creatividad, Web, Redes sociales.',
       resume: 'https://jpaddeo.github.io',
@@ -87,6 +89,12 @@ export const Portfolio = {
       },
     ],
     skills,
+    softSkills: [
+      'Comunicación',
+      'Coaching',
+      'Trabajo en equipo',
+      'Adatpabilidad',
+    ],
     contact,
   },
   en: {
@@ -104,6 +112,12 @@ export const Portfolio = {
       ...about,
       name: 'Juan Pablo Addeo',
       role: 'Fullstack Developer',
+      roles: [
+        'Systems Engineer',
+        'Fullstack Developer',
+        'Software Architect',
+        'DevOps',
+      ],
       description:
         'Systems Engineering, Software Architecture and Development, Technical Analysis, Coaching and Managing. Professional Objectives: Development, Architect, Technical Analysis, Innovation, Creativity.',
       resume: 'https://jpaddeo.github.io',
@@ -144,6 +158,7 @@ export const Portfolio = {
       },
     ],
     skills,
+    softSkills: ['Communication', 'Coaching', 'Teamwork', 'Adaptabilty'],
     contact,
   },
 };
