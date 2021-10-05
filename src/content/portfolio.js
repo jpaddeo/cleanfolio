@@ -33,8 +33,10 @@ export const Portfolio = {
     strings: {
       iam: 'Hola, yo soy',
       about: 'Acerca de',
-      skills: 'Habilidades',
+      skills: 'Habilidades duras',
+      softSkills: 'Habilidades blandas',
       projects: 'Proyectos',
+      learningProjects: 'Proyectos (de aprendizaje)',
       contact: 'Contacto',
       resume: 'CV',
       emailme: 'Contactame',
@@ -55,6 +57,110 @@ export const Portfolio = {
       social,
     },
     projects: [
+      {
+        name: 'Aplicación iOS ConProsperidad',
+        description:
+          'Aplicación para proyecto ConProsperidad (Coaching para lograr que nuestros pensamientos y emociones alcancen nuestros sueños)',
+        stack: ['Ionic', 'Capacitor', 'Docker', 'CI/CD', 'Laravel', 'Blade'],
+        livePreview:
+          'https://apps.apple.com/ar/app/conprosperidad/id1514692235',
+      },
+      {
+        name: 'Aplicación Android ConProsperidad',
+        description:
+          'Aplicación para proyecto ConProsperidad (Coaching para lograr que nuestros pensamientos y emociones alcancen nuestros sueños)',
+        stack: ['Ionic', 'Capacitor', 'Docker', 'CI/CD', 'Laravel', 'Blade'],
+        livePreview:
+          'https://play.google.com/store/apps/details?id=ar.com.conprosperidad.app',
+      },
+      {
+        name: 'Declaraciones Juradas MPFCIUDAD',
+        description:
+          'Sistema de presentación de Declaraciones Juradas Patrimoniales para magistrados del Ministerio Público Fiscal de la C.A.B.A.',
+        stack: [
+          'React',
+          'Lumen',
+          'MongoDB',
+          'Microservices',
+          'Docker',
+          'CI/CD',
+        ],
+        livePreview: 'https://ddjj.mpfciudad.gob.ar',
+      },
+      {
+        name: 'Firmador archivos MPFCIUDAD',
+        description:
+          'Firmador de archivos PDF para magistrados del Ministerio Público Fiscal de la C.A.B.A.',
+        stack: ['VueJS', 'Lumen', 'MySQL', 'Microservices', 'Docker', 'CI/CD'],
+        livePreview: 'https://firmador.mpfciudad.gob.ar',
+      },
+      {
+        name: '¿Me Regalás Una Hora?"',
+        description: 'Renovación Imagen Institucional (trabajo ad-honorem)',
+        stack: [
+          'Laravel',
+          'Blade',
+          'Angular',
+          'Leaflet',
+          'Integración Google Calendar',
+          'MySQL',
+        ],
+        livePreview: 'https://meregalasunahora.org',
+      },
+      {
+        name: 'Campus Virtual Ministerio Público de la C.A.B.A.',
+        description:
+          'Sistema de gestión de cursos / capacitaciones (E-learning) para el Ministerio Público Fiscal de la C.A.B.A.',
+        stack: ['Laravel', 'Blade', 'Integración YouTube', 'MySQL'],
+        livePreview: 'https://capacitacion.mpfciudad.gob.ar',
+      },
+      {
+        name: 'Aplicación Web Denuncias MPF',
+        description:
+          'Permite a cualquier ciudadano poder denunciar delitos tipificados y otros de forma anónima o identificada. Consulta y seguimiento de denuncias realizadas. Consulta de información útil y de autoridades (comisarías, centros de denuncias: UODs, fiscalías).',
+        stack: ['Ionic', 'Angular', 'PWA', 'API REST'],
+        livePreview: 'https://denuncias.fiscalias.gob.ar',
+      },
+      {
+        name: 'Sitio web institucional Ministerio Público Fiscal de la C.A.B.A.',
+        description: 'Nuevo sitio institucional del MPFCABA',
+        stack: [
+          'Laravel',
+          'Blade',
+          'MySQL',
+          'API REST',
+          'USIG',
+          'Elasticsearch',
+          'Docker',
+          'CI/CD',
+        ],
+        livePreview: 'https://mpfciudad.gob.ar',
+      },
+      {
+        name: 'Aplicación iOS de Denuncias para el Ministerio Público Fiscal de la C.A.B.A.',
+        description:
+          'Aplicación de celulares para dispositivos Apple que le permite al ciudadano denunciar delitos y contravenciones ante el MPFCABA',
+        stack: ['Ionic', 'Angular', 'GoogleMaps'],
+        livePreview: 'https://apps.apple.com/ar/app/denuncias-mpf/id1446289355',
+      },
+      {
+        name: 'Aplicación Android de Denuncias para el Ministerio Público Fiscal de la C.A.B.A.',
+        description:
+          'Aplicación de celulares para dispositivos Apple que le permite al ciudadano denunciar delitos y contravenciones ante el MPFCABA',
+        stack: ['Ionic', 'Angular', 'GoogleMaps'],
+        livePreview:
+          'https://play.google.com/store/apps/details?id=ar.gob.mpf.denunciasmob',
+      },
+      {
+        name: 'Desarrollo e Implementación de Red de Datos Vinculados del Ministerio Público Fiscal de la C.A.B.A.',
+        description:
+          'Herramienta que permite desplegar relaciones / conexiones en forma de grafos entre los distintos nodos de información contenidos en una o varias fuentes de datos.',
+        stack: ['Neo4J', 'JS', 'Librería Popoto', 'MySQL', 'API REST'],
+        livePreview:
+          'https://mpfciudad.gob.ar/storage/archivos/Resoluci%C3%B3n%20FG%20N%C2%BA%20381-17.pdf',
+      },
+    ],
+    learningProjects: [
       {
         name: 'Clon de Airbnb',
         description:
@@ -101,8 +207,10 @@ export const Portfolio = {
     strings: {
       iam: 'Hi, I am',
       about: 'About',
-      skills: 'Skills',
+      skills: 'Hard Skills',
+      softSkills: 'Soft Skills',
       projects: 'Projects',
+      learningProjects: 'Learning Projects',
       contact: 'Contact',
       resume: 'Resume',
       emailme: 'Email me',
@@ -124,6 +232,94 @@ export const Portfolio = {
       social,
     },
     projects: [
+      {
+        name: "Public Prosecutor's Office Sworn Statements",
+        description:
+          "Sworn statements system for Public Prosecutor's Office magisters",
+        stack: [
+          'React',
+          'Lumen',
+          'MongoDB',
+          'Microservices',
+          'Docker',
+          'CI/CD',
+        ],
+        livePreview: 'https://ddjj.mpfciudad.gob.ar',
+      },
+      {
+        name: "Public Prosecutor's Office File Signer",
+        description:
+          "PDF's files signer for Public Prosecutor's Office magisters",
+        stack: ['VueJS', 'Lumen', 'MySQL', 'Microservices', 'Docker', 'CI/CD'],
+        livePreview: 'https://firmador.mpfciudad.gob.ar',
+      },
+      {
+        name: '¿Me Regalás Una Hora?"',
+        description: 'New institutional image (website, cms) [ad-honorem]',
+        stack: [
+          'Laravel',
+          'Blade',
+          'Angular',
+          'Leaflet',
+          'Integración Google Calendar',
+          'MySQL',
+        ],
+        livePreview: 'https://meregalasunahora.org',
+      },
+      {
+        name: "Public Prosecutor's Office E-learning",
+        description:
+          "E-learning system for Public Prosecutor's Office employees",
+        stack: ['Laravel', 'Blade', 'Integración YouTube', 'MySQL'],
+        livePreview: 'https://capacitacion.mpfciudad.gob.ar',
+      },
+      {
+        name: "Public Prosecutor's Office Reports WebApp",
+        description:
+          'It allows to any people to reports and follow-up their reports. Also allows to find util information and offices locations',
+        stack: ['Ionic', 'Angular', 'PWA', 'API REST'],
+        livePreview: 'https://denuncias.fiscalias.gob.ar',
+      },
+      {
+        name: "Public Prosecutor's Office Institutional Website",
+        description: "New Public Prosecutor's Office image and website",
+        stack: [
+          'Laravel',
+          'Blade',
+          'MySQL',
+          'API REST',
+          'USIG',
+          'Elasticsearch',
+          'Docker',
+          'CI/CD',
+        ],
+        livePreview: 'https://mpfciudad.gob.ar',
+      },
+      {
+        name: "Public Prosecutor's Office iOS Reports App",
+        description:
+          'It allows to any people to reports and follow-up their reports. Also allows to find util information and offices locations',
+        stack: ['Ionic', 'Angular', 'GoogleMaps'],
+        livePreview: 'https://apps.apple.com/ar/app/denuncias-mpf/id1446289355',
+      },
+      {
+        name: "Public Prosecutor's Office Android Reports App",
+        description:
+          'It allows to any people to reports and follow-up their reports. Also allows to find util information and offices locations',
+        stack: ['Ionic', 'Angular', 'GoogleMaps'],
+        livePreview:
+          'https://play.google.com/store/apps/details?id=ar.gob.mpf.denunciasmob',
+      },
+      {
+        name: "Public Prosecutor's Office Data Vinculated Network",
+        description:
+          'Graph tool that shows relations and network connections. Multiples data sources.',
+        stack: ['Neo4J', 'JS', 'Popoto library', 'MySQL', 'API REST'],
+        livePreview:
+          'https://mpfciudad.gob.ar/storage/archivos/Resoluci%C3%B3n%20FG%20N%C2%BA%20381-17.pdf',
+      },
+    ],
+    learningProjects: [
       {
         name: 'Airbnb Clone',
         description:

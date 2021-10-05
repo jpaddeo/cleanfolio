@@ -56,4 +56,8 @@
     align-items: flex-start;
     margin-top: 2em;
   }
+  .app .about__legend img {
+    width: 5rem;
+    height: 5rem;
+  }
 }

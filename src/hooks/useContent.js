@@ -6,7 +6,15 @@ import { Portfolio } from '../content/portfolio';
 export default function useContent() {
   const [locale, _] = useContext(LanguageContext);
 
-  const { header, about, projects, skills, contact } = Portfolio[locale];
+  const {
+    header,
+    about,
+    projects,
+    learningProjects,
+    skills,
+    softSkills,
+    contact,
+  } = Portfolio[locale];
 
   const LangString = (key) => {
     if (!Portfolio[locale].strings[key]) {
@@ -19,7 +27,9 @@ export default function useContent() {
     header,
     about,
     projects,
+    learningProjects,
     skills,
+    softSkills,
     contact,
     LangString,
   };

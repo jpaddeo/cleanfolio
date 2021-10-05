@@ -1,7 +1,6 @@
 import { useContext } from 'react';
 
 import { ThemeContext } from './contexts/theme';
-import { LanguageContext } from './contexts/language';
 
 import Header from './components/Header/Header';
 import About from './components/About/About';

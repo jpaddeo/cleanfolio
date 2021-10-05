@@ -9,7 +9,7 @@ import './About.css';
 
 const About = () => {
   const { about, LangString } = useContent();
-  const { profileUrl, name, roles, description, resume, social } = about;
+  const { profileUrl, name, roles, resume, social } = about;
 
   return (
     <div className='about center'>

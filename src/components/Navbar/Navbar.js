@@ -18,7 +18,7 @@ const Navbar = () => {
   const [locale, changeLanguage] = useContext(LanguageContext);
   const [showNavList, setShowNavList] = useState(false);
   const localeRef = useRef(null);
-  const { projects, skills, contact, LangString } = useContent();
+  const { projects, skills, softSkills, contact, LangString } = useContent();
 
   const toggleNavList = () => setShowNavList(!showNavList);
   const handleClickChangeLanguage = () => {
@@ -52,6 +52,18 @@ const Navbar = () => {
               className='link link--nav'
             >
               {LangString('skills')}
+            </a>
+          </li>
+        ) : null}
+        
+        {softSkills.length ? (
+          <li className='nav__list-item'>
+            <a
+              href='#soft-skills'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              {LangString('softSkills')}
             </a>
           </li>
         ) : null}
