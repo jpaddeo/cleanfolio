@@ -1,4 +1,4 @@
-import { useContext } from 'react';
+import { useEffect, useContext, useCallback } from 'react';
 
 import { ThemeContext } from './contexts/theme';
 
@@ -14,6 +14,12 @@ import './App.css';
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext);
+
+  useEffect(() => {
+    const favicon = document.getElementById('favicon');
+    favicon.href = `${themeName}/favicon.ico`;
+  }, [themeName]);
+
   return (
     <div className={`${themeName} app`}>
       <Header />
