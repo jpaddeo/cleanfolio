@@ -40,6 +40,7 @@ export const Portfolio = {
       contact: 'Contacto',
       resume: 'CV',
       emailme: 'Contactame',
+      date: 'Fecha',
     },
     header,
     about: {
@@ -162,7 +163,17 @@ export const Portfolio = {
     ],
     learningProjects: [
       {
+        name: 'Clon de Instagram',
+        date: '2021-10',
+        description:
+          'Clon de red social Instagram hecho con Nextjs + Tailwind CSS + Firebase. #PAPAReactChallenge',
+        stack: ['React', 'NextJS', 'Tailwind CSS', 'Firebase', 'Recoil'],
+        sourceCode: 'https://github.com/nextjs-instagram.git',
+        livePreview: 'https://igclone.jpaddeo.xyz',
+      },
+      {
         name: 'Clon de Airbnb',
+        date: '2021-09',
         description:
           'Clon básico del sitio de airbnb hecho con Nextjs + Tailwind CSS. #PAPAReactChallenge',
         stack: ['React', 'NextJS', 'Tailwind CSS'],
@@ -171,22 +182,25 @@ export const Portfolio = {
       },
       {
         name: 'Clon de Whatsapp Web',
+        date: '2021-08',
         description:
           'Clon básico de Whatsapp Web hecho con Nextjs + Tailwind CSS. Integración con Google SignIn. #PAPAReactChallenge',
         stack: ['React', 'NextJS', 'Tailwind CSS', 'Google SignIn'],
-        sourceCode: 'https://github.com/jpaddeo/nextjs-whatsapp-clone',
+        sourceCode: 'https://github.com/jpaddeo/nextjs-whatsapp-clone.git',
         livePreview: 'https://nextjs-whatsapp-clone-jade.vercel.app',
       },
       {
         name: 'Devtter',
+        date: '2021-08',
         description:
           'Devtter. Plataforma similar a Twitter orientada principalmente para desarrolladores. Hecho con Nextjs. Integración con Github SignIn.',
         stack: ['React', 'NextJS', 'Github SignIn'],
-        sourceCode: 'https://github.com/jpaddeo/nextjs-devtter',
-        livePreview: 'https://vercel.com/jpaddeo/nextjs-devtter',
+        sourceCode: 'https://github.com/jpaddeo/nextjs-devtter.git',
+        livePreview: 'https://nextjs-devtter.vercel.app',
       },
       {
         name: 'COVID-19 Info',
+        date: '2021-07',
         description:
           'Aplicación con información de COVID-19. API tracker. Hecha con ReactJS + Material-UI',
         stack: ['React', 'Material-UI'],
@@ -214,6 +228,7 @@ export const Portfolio = {
       contact: 'Contact',
       resume: 'Resume',
       emailme: 'Email me',
+      date: 'Date',
     },
     header,
     about: {
@@ -321,7 +336,17 @@ export const Portfolio = {
     ],
     learningProjects: [
       {
+        name: 'Instagram Clone',
+        date: '2021-10',
+        description:
+          'Instagram social network clone made with Nextjs + Tailwind CSS + Firebase. #PAPAReactChallenge',
+        stack: ['React', 'NextJS', 'Tailwind CSS', 'Firebase', 'Recoil'],
+        sourceCode: 'https://github.com/nextjs-instagram.git',
+        livePreview: 'https://igclone.jpaddeo.xyz',
+      },
+      {
         name: 'Airbnb Clone',
+        date: '2021-09',
         description:
           'Airbnb website basic clone made with Nextjs + Tailwind CSS. #PAPAReactChallenge',
         stack: ['React', 'NextJS', 'Tailwind CSS'],
@@ -330,6 +355,7 @@ export const Portfolio = {
       },
       {
         name: 'Whatsapp Web Clone',
+        date: '2021-08',
         description:
           'Whatsapp Web basic clone made with Nextjs + Tailwind CSS. Using Google SignIn integration. #PAPAReactChallenge',
         stack: ['React', 'NextJS', 'Tailwind CSS', 'Google SignIn'],
@@ -338,6 +364,7 @@ export const Portfolio = {
       },
       {
         name: 'Devtter',
+        date: '2021-08',
         description:
           'Devtter. Devs Twitter similar platform to share information. Devs community. Made with Nextjs. Github SignIn.',
         stack: ['React', 'NextJS', 'Github SignIn'],
@@ -346,6 +373,7 @@ export const Portfolio = {
       },
       {
         name: 'COVID-19 Info',
+        date: '2021-07',
         description:
           'COVID-19 information app.API tracker. Made with ReactJS + Material-UI',
         stack: ['React', 'Material-UI'],

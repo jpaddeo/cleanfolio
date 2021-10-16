@@ -28,7 +28,11 @@ const About = () => {
           mask
         >
           {roles.map((role) => (
-            <span className='about__role'><span>[</span>{role}<span>]</span></span>
+            <span key={role} className='about__role'>
+              <span>[</span>
+              {role}
+              <span>]</span>
+            </span>
           ))}
         </TextLoop>
       )}
