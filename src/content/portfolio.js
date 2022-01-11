@@ -163,12 +163,28 @@ export const Portfolio = {
     ],
     learningProjects: [
       {
+        name: 'Acortador de URLs',
+        date: '2022-01',
+        description:
+          'Acortador de urls con login y traceo de consultas por usuario e ingreso. Hecho con Nextjs + Tailwind CSS + Auth0.',
+        stack: [
+          'React',
+          'NextJS',
+          'Tailwind CSS',
+          'Auth0',
+          'Prisma',
+          'Railway',
+        ],
+        sourceCode: 'https://github.com/jpaddeo/nextjs-urlshortener.git',
+        livePreview: 'https://surl.jpaddeo.xyz',
+      },
+      {
         name: 'Clon de Instagram',
         date: '2021-10',
         description:
           'Clon de red social Instagram hecho con Nextjs + Tailwind CSS + Firebase. #PAPAReactChallenge',
         stack: ['React', 'NextJS', 'Tailwind CSS', 'Firebase', 'Recoil'],
-        sourceCode: 'https://github.com/nextjs-instagram.git',
+        sourceCode: 'https://github.com/jpaddeo/nextjs-instagram.git',
         livePreview: 'https://igclone.jpaddeo.xyz',
       },
       {
@@ -177,7 +193,7 @@ export const Portfolio = {
         description:
           'Clon básico del sitio de airbnb hecho con Nextjs + Tailwind CSS. #PAPAReactChallenge',
         stack: ['React', 'NextJS', 'Tailwind CSS'],
-        sourceCode: 'https://github.com/nextjs-airbnb.git',
+        sourceCode: 'https://github.com/jpaddeo/nextjs-airbnb.git',
         livePreview: 'https://nextjs-airbnb-clone-six.vercel.app',
       },
       {
@@ -335,6 +351,22 @@ export const Portfolio = {
       },
     ],
     learningProjects: [
+      {
+        name: 'URL Shortener',
+        date: '2022-01',
+        description:
+          'URL shortener with login and links trace per user made with Nextjs + Tailwind CSS + Auth0.',
+        stack: [
+          'React',
+          'NextJS',
+          'Tailwind CSS',
+          'Auth0',
+          'Prisma',
+          'Railway',
+        ],
+        sourceCode: 'https://github.com/jpaddeo/nextjs-urlshortener.git',
+        livePreview: 'https://surl.jpaddeo.xyz',
+      },
       {
         name: 'Instagram Clone',
         date: '2021-10',
