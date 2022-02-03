@@ -55,7 +55,7 @@ const Navbar = () => {
             </a>
           </li>
         ) : null}
-        
+
         {softSkills.length ? (
           <li className='nav__list-item'>
             <a
@@ -91,14 +91,6 @@ const Navbar = () => {
       </button>
 
       <div className='lang__switcher'>
-        <button
-          type='button'
-          onClick={handleClickChangeLanguage}
-          className='btn btn--icon nav__theme'
-          aria-label='change language'
-        >
-          <LanguageIcon />
-        </button>
         <div className='lang__switcher_locales' ref={localeRef}>
           {locales.map((loc) => (
             <span
@@ -110,6 +102,14 @@ const Navbar = () => {
             </span>
           ))}
         </div>
+        <button
+          type='button'
+          onClick={handleClickChangeLanguage}
+          className='btn btn--icon nav__theme'
+          aria-label='change language'
+        >
+          <LanguageIcon fontSize='small' />
+        </button>
       </div>
 
       <button

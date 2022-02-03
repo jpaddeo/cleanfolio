@@ -18,13 +18,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
+
 .lang__switcher_locales {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   padding: 4px;
+}
+.lang__switcher_locales span {
+  margin-right: 0.25em;
 }
 
 .lang__switcher_locale__active {

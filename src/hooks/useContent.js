@@ -4,7 +4,7 @@ import { LanguageContext } from '../contexts/language';
 import { Portfolio } from '../content/portfolio';
 
 export default function useContent() {
-  const [locale, _] = useContext(LanguageContext);
+  const [locale] = useContext(LanguageContext);
 
   const {
     header,

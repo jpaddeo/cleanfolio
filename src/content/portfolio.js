@@ -38,7 +38,7 @@ export const Portfolio = {
       projects: 'Proyectos',
       learningProjects: 'Proyectos (de aprendizaje)',
       contact: 'Contacto',
-      resume: 'CV',
+      resume: 'Curriculum',
       emailme: 'Contactame',
       date: 'Fecha',
     },

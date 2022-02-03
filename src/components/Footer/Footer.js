@@ -3,7 +3,7 @@ import './Footer.css';
 const Footer = () => (
   <footer className='footer'>
     <a
-      href='https://jpaddeo.github.io/portfolio'
+      href='https://github.com/jpaddeo/cleanfolio'
       className='link footer__link'
       target='_blank'
       rel='noreferrer'
