@@ -163,6 +163,22 @@ export const Portfolio = {
     ],
     learningProjects: [
       {
+        name: 'Sitio Web 3.0',
+        date: '2022-02',
+        description:
+          'Desarrollo de Web con integración de Smart Contract (desarrollado e implementado en Alchemy). Web 3.0. Hecho con Vite + ReactJS + Tailwind CSS + Solidity + Alchemy.',
+        stack: [
+          'React',
+          'Web3.0',
+          'Ethereum',
+          'Tailwind CSS',
+          'Alchemy',
+          'Solidty',
+        ],
+        sourceCode: 'https://github.com/jpaddeo/js-mastery-web3.git',
+        livePreview: 'https://web3.jpaddeo.xyz',
+      },
+      {
         name: 'Acortador de URLs',
         date: '2022-01',
         description:
@@ -355,6 +371,22 @@ export const Portfolio = {
       },
     ],
     learningProjects: [
+      {
+        name: 'Web 3.0 Demo',
+        date: '2022-02',
+        description:
+          'Smart Contract development and integration with web site. Web 3.0. Made with Vite + ReactJS + Tailwind CSS + Solidity + Alchemy.',
+        stack: [
+          'React',
+          'Web3.0',
+          'Ethereum',
+          'Tailwind CSS',
+          'Alchemy',
+          'Solidty',
+        ],
+        sourceCode: 'https://github.com/jpaddeo/js-mastery-web3.git',
+        livePreview: 'https://web3.jpaddeo.xyz',
+      },
       {
         name: 'URL Shortener',
         date: '2022-01',
