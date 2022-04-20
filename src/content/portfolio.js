@@ -163,6 +163,22 @@ export const Portfolio = {
     ],
     learningProjects: [
       {
+        name: 'Modernización de sitio XKCD',
+        date: '2022-04',
+        description:
+          'Reingeniería y modernización de stack del sitio xkcd (https://xkcd.com). NextJS + Deno & Node.JS + Tailwind CSS + Algolia Search',
+        stack: [
+          'NextJS',
+          'Node.JS',
+          'Deno',
+          'Tailwind CSS',
+          'Algolia Search',
+          'Scrapping',
+        ],
+        sourceCode: 'https://github.com/jpaddeo/nextjs-deno-xkcd.git',
+        livePreview: 'https://xkcd.jpaddeo.xyz',
+      },
+      {
         name: 'Sitio Web 3.0',
         date: '2022-02',
         description:
@@ -371,6 +387,22 @@ export const Portfolio = {
       },
     ],
     learningProjects: [
+      {
+        name: 'XKCD Update',
+        date: '2022-04',
+        description:
+          'Renewing xkcd site using new dev stacks (https://xkcd.com). NextJS + Deno & Node.JS + Tailwind CSS + Algolia Search',
+        stack: [
+          'NextJS',
+          'Node.JS',
+          'Deno',
+          'Tailwind CSS',
+          'Algolia Search',
+          'Scrapping',
+        ],
+        sourceCode: 'https://github.com/jpaddeo/nextjs-deno-xkcd.git',
+        livePreview: 'https://xkcd.jpaddeo.xyz',
+      },
       {
         name: 'Web 3.0 Demo',
         date: '2022-02',
