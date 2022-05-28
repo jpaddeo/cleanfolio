@@ -1,5 +1,5 @@
 const header = {
-  homepage: 'https://jpaddeo.github.io/porftolio',
+  homepage: 'https://jpaddeo.work',
   title: 'JPA.',
 };
 const about = {
