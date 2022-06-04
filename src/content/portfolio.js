@@ -14,9 +14,11 @@ const skills = [
   'JavaScript',
   'React',
   'NextJS',
+  'InertiaJS',
   'React Native',
-  'Material UI',
+  'GraphQL',
   'Tailwind CSS',
+  'Material UI',
   'Bootstrap',
   'Git',
   'Github + Github Actions',
@@ -24,6 +26,8 @@ const skills = [
   'Jest',
   'Ionic',
   'Angular',
+  'PHP',
+  'Laravel',
 ];
 const contact = {
   email: 'jpaddeo@gmail.com',
@@ -162,6 +166,23 @@ export const Portfolio = {
       },
     ],
     learningProjects: [
+      {
+        name: 'Clon de Reddit',
+        date: '2022-06',
+        description:
+          'Clon educacional de Reddit hecho con NextJS + TypeScript + Tailwind CSS + Supabase + GraphQL + StepZen + Algolia Client',
+        stack: [
+          'NextJS',
+          'TypeScript',
+          'Tailwind CSS',
+          'Supabase',
+          'GraphQL',
+          'StepZen',
+          'Algolia Client',
+        ],
+        sourceCode: 'https://github.com/jpaddeo/nextjs-reddit-clone.git',
+        livePreview: 'https://reddit.jpaddeo.xyz',
+      },
       {
         name: 'Modernización de sitio XKCD',
         date: '2022-04',
@@ -387,6 +408,23 @@ export const Portfolio = {
       },
     ],
     learningProjects: [
+      {
+        name: 'Reddit Clone',
+        date: '2022-06',
+        description:
+          'Reddit social network educational clone made with NextJS + TypeScript + Tailwind CSS + Supabase + GraphQL + StepZen + Algolia Client',
+        stack: [
+          'NextJS',
+          'TypeScript',
+          'Tailwind CSS',
+          'Supabase',
+          'GraphQL',
+          'StepZen',
+          'Algolia Client',
+        ],
+        sourceCode: 'https://github.com/jpaddeo/nextjs-reddit-clone.git',
+        livePreview: 'https://reddit.jpaddeo.xyz',
+      },
       {
         name: 'XKCD Update',
         date: '2022-04',
