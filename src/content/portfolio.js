@@ -167,6 +167,15 @@ export const Portfolio = {
     ],
     learningProjects: [
       {
+        name: 'Generador de Passwords',
+        date: '2022-10',
+        description:
+          'Generador de passwords conforme a hackaton propuesto (Hacktoberfest 2022)',
+        stack: ['Astro', 'ReactJS', 'JavaScript', 'Tailwind CSS'],
+        sourceCode: 'https://github.com/jpaddeo/password-generator.git',
+        livePreview: 'https://hacktoberfest-2022.vercel.app/entry/jpaddeo',
+      },
+      {
         name: 'Clon de Reddit',
         date: '2022-06',
         description:
@@ -408,6 +417,14 @@ export const Portfolio = {
       },
     ],
     learningProjects: [
+      {
+        name: 'Password Generator',
+        date: '2022-10',
+        description: 'Password generator for Hacktoberfest 2022',
+        stack: ['Astro', 'ReactJS', 'JavaScript', 'Tailwind CSS'],
+        sourceCode: 'https://github.com/jpaddeo/password-generator.git',
+        livePreview: 'https://hacktoberfest-2022.vercel.app/entry/jpaddeo',
+      },
       {
         name: 'Reddit Clone',
         date: '2022-06',
