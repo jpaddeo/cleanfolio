@@ -190,7 +190,7 @@ export const Portfolio = {
           'Algolia Client',
         ],
         sourceCode: 'https://github.com/jpaddeo/nextjs-reddit-clone.git',
-        livePreview: 'https://reddit.jpaddeo.xyz',
+        livePreview: 'https://reddit.jpaddeo.work',
       },
       {
         name: 'Modernización de sitio XKCD',
@@ -206,7 +206,7 @@ export const Portfolio = {
           'Scrapping',
         ],
         sourceCode: 'https://github.com/jpaddeo/nextjs-deno-xkcd.git',
-        livePreview: 'https://xkcd.jpaddeo.xyz',
+        livePreview: 'https://xkcd.jpaddeo.work',
       },
       {
         name: 'Sitio Web 3.0',
@@ -222,7 +222,7 @@ export const Portfolio = {
           'Solidty',
         ],
         sourceCode: 'https://github.com/jpaddeo/js-mastery-web3.git',
-        livePreview: 'https://web3.jpaddeo.xyz',
+        livePreview: 'https://web3.jpaddeo.work',
       },
       {
         name: 'Acortador de URLs',
@@ -238,7 +238,7 @@ export const Portfolio = {
           'Railway',
         ],
         sourceCode: 'https://github.com/jpaddeo/nextjs-urlshortener.git',
-        livePreview: 'https://surl.jpaddeo.xyz',
+        livePreview: 'https://surl.jpaddeo.work',
       },
       {
         name: 'Clon de Instagram',
@@ -247,7 +247,7 @@ export const Portfolio = {
           'Clon de red social Instagram hecho con Nextjs + Tailwind CSS + Firebase. #PAPAReactChallenge',
         stack: ['React', 'NextJS', 'Tailwind CSS', 'Firebase', 'Recoil'],
         sourceCode: 'https://github.com/jpaddeo/nextjs-instagram.git',
-        livePreview: 'https://igclone.jpaddeo.xyz',
+        livePreview: 'https://igclone.jpaddeo.work',
       },
       {
         name: 'Clon de Airbnb',
@@ -257,7 +257,7 @@ export const Portfolio = {
         stack: ['React', 'NextJS', 'Tailwind CSS'],
         sourceCode: 'https://github.com/jpaddeo/nextjs-airbnb.git',
         // livePreview: 'https://nextjs-airbnb-clone-six.vercel.app',
-        livePreview: 'https://airbnb.jpaddeo.xyz',
+        livePreview: 'https://airbnb.jpaddeo.work',
       },
       {
         name: 'Clon de Whatsapp Web',
@@ -267,7 +267,7 @@ export const Portfolio = {
         stack: ['React', 'NextJS', 'Tailwind CSS', 'Google SignIn'],
         sourceCode: 'https://github.com/jpaddeo/nextjs-whatsapp-clone.git',
         // livePreview: 'https://nextjs-whatsapp-clone-jade.vercel.app',
-        livePreview: 'https://whatsapp.jpaddeo.xyz',
+        livePreview: 'https://whatsapp.jpaddeo.work',
       },
       {
         name: 'Devtter',
@@ -277,7 +277,7 @@ export const Portfolio = {
         stack: ['React', 'NextJS', 'Github SignIn'],
         sourceCode: 'https://github.com/jpaddeo/nextjs-devtter.git',
         // livePreview: 'https://nextjs-devtter.vercel.app',
-        livePreview: 'https://devtter.jpaddeo.xyz',
+        livePreview: 'https://devtter.jpaddeo.work',
       },
       {
         name: 'COVID-19 Info',
@@ -287,7 +287,7 @@ export const Portfolio = {
         stack: ['React', 'Material-UI'],
         sourceCode: 'https://github.com/jpaddeo/react-covid-info',
         // livePreview: 'https://react-covid-info.vercel.app',
-        livePreview: 'https://covid.jpaddeo.xyz',
+        livePreview: 'https://covid.jpaddeo.work',
       },
     ],
     skills,
@@ -440,7 +440,7 @@ export const Portfolio = {
           'Algolia Client',
         ],
         sourceCode: 'https://github.com/jpaddeo/nextjs-reddit-clone.git',
-        livePreview: 'https://reddit.jpaddeo.xyz',
+        livePreview: 'https://reddit.jpaddeo.work',
       },
       {
         name: 'XKCD Update',
@@ -456,7 +456,7 @@ export const Portfolio = {
           'Scrapping',
         ],
         sourceCode: 'https://github.com/jpaddeo/nextjs-deno-xkcd.git',
-        livePreview: 'https://xkcd.jpaddeo.xyz',
+        livePreview: 'https://xkcd.jpaddeo.work',
       },
       {
         name: 'Web 3.0 Demo',
@@ -472,7 +472,7 @@ export const Portfolio = {
           'Solidty',
         ],
         sourceCode: 'https://github.com/jpaddeo/js-mastery-web3.git',
-        livePreview: 'https://web3.jpaddeo.xyz',
+        livePreview: 'https://web3.jpaddeo.work',
       },
       {
         name: 'URL Shortener',
@@ -488,7 +488,7 @@ export const Portfolio = {
           'Railway',
         ],
         sourceCode: 'https://github.com/jpaddeo/nextjs-urlshortener.git',
-        livePreview: 'https://surl.jpaddeo.xyz',
+        livePreview: 'https://surl.jpaddeo.work',
       },
       {
         name: 'Instagram Clone',
@@ -497,7 +497,7 @@ export const Portfolio = {
           'Instagram social network clone made with Nextjs + Tailwind CSS + Firebase. #PAPAReactChallenge',
         stack: ['React', 'NextJS', 'Tailwind CSS', 'Firebase', 'Recoil'],
         sourceCode: 'https://github.com/nextjs-instagram.git',
-        livePreview: 'https://igclone.jpaddeo.xyz',
+        livePreview: 'https://igclone.jpaddeo.work',
       },
       {
         name: 'Airbnb Clone',
@@ -507,7 +507,7 @@ export const Portfolio = {
         stack: ['React', 'NextJS', 'Tailwind CSS'],
         sourceCode: 'https://github.com/jpaddeo/nextjs-airbnb-clone',
         // livePreview: 'https://nextjs-airbnb-clone-six.vercel.app',
-        livePreview: 'https://airbnb.jpaddeo.xyz',
+        livePreview: 'https://airbnb.jpaddeo.work',
       },
       {
         name: 'Whatsapp Web Clone',
@@ -517,7 +517,7 @@ export const Portfolio = {
         stack: ['React', 'NextJS', 'Tailwind CSS', 'Google SignIn'],
         sourceCode: 'https://github.com/jpaddeo/nextjs-whatsapp-clone',
         // livePreview: 'https://nextjs-whatsapp-clone-jade.vercel.app',
-        livePreview: 'https://whatsapp.jpaddeo.xyz',
+        livePreview: 'https://whatsapp.jpaddeo.work',
       },
       {
         name: 'Devtter',
@@ -527,7 +527,7 @@ export const Portfolio = {
         stack: ['React', 'NextJS', 'Github SignIn'],
         sourceCode: 'https://github.com/jpaddeo/nextjs-devtter',
         // livePreview: 'https://nextjs-devtter.vercel.app',
-        livePreview: 'https://devtter.jpaddeo.xyz',
+        livePreview: 'https://devtter.jpaddeo.work',
       },
       {
         name: 'COVID-19 Info',
@@ -537,7 +537,7 @@ export const Portfolio = {
         stack: ['React', 'Material-UI'],
         sourceCode: 'https://github.com/jpaddeo/react-covid-info',
         // livePreview: 'https://react-covid-info.vercel.app',
-        livePreview: 'https://covid.jpaddeo.xyz',
+        livePreview: 'https://covid.jpaddeo.work',
       },
     ],
     skills,
