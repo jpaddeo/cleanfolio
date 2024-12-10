@@ -295,7 +295,7 @@ export const Portfolio = {
       'Comunicación',
       'Coaching',
       'Trabajo en equipo',
-      'Adatpabilidad',
+      'Adaptabilidad',
     ],
     contact,
   },
